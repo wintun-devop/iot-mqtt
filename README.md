@@ -11,8 +11,9 @@
 
 ### Default MQTT Ports
 
-Port	Protocol	Description
-1883	TCP	Standard MQTT (unencrypted)
+|Port   |	Protocol    |	    Description             |
+|-------|---------------|-------------------------------|
+| 1883	|   TCP	        | Standard MQTT (unencrypted)   |
 8883	TCP	MQTT over TLS/SSL (secure)
 8080	HTTP	MQTT over WebSockets (optional)
 9001	WebSocket	MQTT over WebSockets (used by Mosquitto and others)
